@@ -1,0 +1,7 @@
+<div *ngFor="let item of weatherData">
+    <h1>The city is {{item.name}}, {{item.sys.country}}</h1>
+    <div>
+    <p>The weather is {{item.weather[0].main}}</p>
+    <p>{{item.weather[0].description}}</p>
+</div>
+</div>
