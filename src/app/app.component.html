@@ -1,5 +1,5 @@
-<header (click)="handleHome()" style="cursor: pointer">Home</header>
-
-<router-outlet />
-
-<footer>Footer</footer>
+<app-header (click)="handleHome()"/>
+<main class="flex items-center justify-center h-3/4">
+  <router-outlet />
+</main>
+<app-footer />
